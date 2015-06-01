@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Doctor1.0
+//
+//  Created by mk on 15/5/28.
+//  Copyright (c) 2015年 cocoa-mk. All rights reserved.
+//
+
+#ifndef Doctor1_0_PrefixHeader_pch
+#define Doctor1_0_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define MAILID @"service@mingyihz.com"
+#define WEIXINID @"mingyizd"
+#define WEIXINANME @"“名医之道”"
+#define PHONENUMBER @"400-119-7099"
+#define API @"http://mingyihz.com/api/faculty"
+
+
+#define COVERIMAGE @"http://mingyihz.oss-cn-hangzhou.aliyuncs.com/static/sg_cover.jpg"
+#define ELIZABTHIMAGE @"http://mingyihz.oss-cn-hangzhou.aliyuncs.com/static/banner_elizabeth.jpg"
+#define KTPHIMAGE @"http://mingyihz.oss-cn-hangzhou.aliyuncs.com/static/banner_ktph.jpg"
+#define SGHIMAGE @"http://mingyihz.oss-cn-hangzhou.aliyuncs.com/static/banner_sgh.jpg"
+#define NUHIMAGE @"http://mingyihz.oss-cn-hangzhou.aliyuncs.com/static/banner_nuh.jpg"
+#endif
