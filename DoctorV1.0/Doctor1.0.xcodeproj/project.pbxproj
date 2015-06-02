@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0E135F1B1D77A4003C645F /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E135E1B1D77A4003C645F /* Images-2.xcassets */; };
 		4D1938C01B130A8600F0FEDB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1938BF1B130A8600F0FEDB /* MainViewController.m */; };
 		4D1938C31B130AE700F0FEDB /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1938C21B130AE700F0FEDB /* TwoViewController.m */; };
 		4D1938C61B130B1100F0FEDB /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1938C51B130B1100F0FEDB /* ThreeViewController.m */; };
@@ -109,6 +110,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0E135E1B1D77A4003C645F /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		4D1938BE1B130A8600F0FEDB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		4D1938BF1B130A8600F0FEDB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4D1938C11B130AE700F0FEDB /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoViewController.h; path = ../TwoViewController.h; sourceTree = "<group>"; };
@@ -696,6 +698,7 @@
 				4D907D481B1302260053CE86 /* Application */,
 				A1F51FD51B12BB4A00A0AB4D /* Images.xcassets */,
 				A1F51FD71B12BB4A00A0AB4D /* LaunchScreen.xib */,
+				4D0E135E1B1D77A4003C645F /* Images-2.xcassets */,
 				A1F51FCE1B12BB4A00A0AB4D /* Supporting Files */,
 			);
 			path = Doctor1.0;
@@ -826,6 +829,7 @@
 				A1F51FD61B12BB4A00A0AB4D /* Images.xcassets in Resources */,
 				4D770CB61B18155300E5CADF /* ic_baby.png in Resources */,
 				4DC292531B15A86F000EA4EC /* iconfont-duihao.png in Resources */,
+				4D0E135F1B1D77A4003C645F /* Images-2.xcassets in Resources */,
 				4DFCAA891B142EFF002A04D7 /* ic_home_hover.png in Resources */,
 				4DFCAA8C1B142EFF002A04D7 /* ic_huizhen.png in Resources */,
 				4DFCAA8F1B14306F002A04D7 /* ios-icon_myhz.png in Resources */,
@@ -1034,6 +1038,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Shu Su (6AB8DPHS9G)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shu Su (6AB8DPHS9G)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1051,6 +1056,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Shu Su (6AB8DPHS9G)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shu Su (6AB8DPHS9G)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
